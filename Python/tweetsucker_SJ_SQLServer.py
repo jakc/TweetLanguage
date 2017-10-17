@@ -30,8 +30,8 @@ def main():
     build_swear_list()
 
     # Get tweets from Streaming API
-    uname = 'MelbMapsScraper'
-    passwd = 'lispB612'
+    uname = ''
+    passwd = ''
     extent =["144.0,-39.0,146.0,-37.0"] # Melbourne
 
     # while True loop to keep reconnecting after a ConnectionError
