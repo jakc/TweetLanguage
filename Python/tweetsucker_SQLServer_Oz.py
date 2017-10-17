@@ -24,8 +24,8 @@ def main():
     build_swear_list()
 
     # Get tweets from Streaming API
-    uname = 'MelbMapsScraper'
-    passwd = 'lispB612'
+    uname = ''
+    passwd = ''
     extent =["107.4,-46.4,162.0,-9.5"] # Oz
     #extent =["144.0,-39.0,146.0,-37.0"] # Melb
 	
