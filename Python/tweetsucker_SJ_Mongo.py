@@ -54,8 +54,8 @@ db = connection.gcTweets
 
 tweet_collection = db.datemelgeotweets
 
-uname = 'MelbMapsScraper'
-passwd = 'lispB612'
+uname = ''
+passwd = ''
 extent =["144.0,-39.0,146.0,-37.0"] # a pretty big bbox around melbourne.
 
 # while True loop to keep reconnecting after a ConnectionError.
