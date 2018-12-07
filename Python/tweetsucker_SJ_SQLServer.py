@@ -65,7 +65,7 @@ def main():
 
 def parse_tweet(in_t):
     # connect to SQL Server instance
-    conn = pymssql.connect(host='localhost', user='sa', password='lispB612', database='nosde')
+    conn = pymssql.connect(host='localhost', user='sa', password='yourPassword', database='nosde')
 
     # commits every transaction automatically and setup cursor
     conn.autocommit(True)
